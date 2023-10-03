@@ -1,2 +1,1 @@
-def multiplicacion(a, b)
-    
+ 
