@@ -10,4 +10,9 @@ jobs:
           command: pip install -r requirements.txt
       - run:
           name: Running Tests
+<<<<<<< HEAD
           command: coverage run -m unittest && coverage xml && coverage report -m
+=======
+          command: coverage run -m unittest && coverage xml && coverage report -m
+          
+>>>>>>> 2bf8bf9 (circleci)
